@@ -1,0 +1,96 @@
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\documentclass[a4paper,parskip=half,german,DIV=10,captions=tableheading]{scrreprt}
+\KOMAoption{listof}{totoc}
+\KOMAoption{bibliography}{totoc}
+
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+
+\usepackage{scrhack}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\usepackage[ngerman,nospace]{varioref}
+
+\usepackage{booktabs}
+
+\usepackage{makecell}
+
+\usepackage{graphicx}
+
+\usepackage{subcaption}
+
+\usepackage{float}
+\newfloat{transkript}{h}{trans}
+\floatname{transkript}{Transkript}
+
+% http://www.rößner.de/Essays/TransLaTeX.pdf
+\usepackage{lineno}
+% https://tex.stackexchange.com/questions/117883/hyperlinks-and-line-numbering
+\newcommand{\llabel}[1]{\hypertarget{llineno:#1}{\linelabel{#1}}}
+\newcommand{\lref}[1]{\hyperlink{llineno:#1}{\ref*{#1}}}
+\newcommand{\lpageref}[1]{\hyperlink{llineno:#1}{\pageref*{#1}}}
+
+\usepackage{csquotes,xpatch}
+
+\usepackage[backend=biber,style=authoryear,useprefix=false]{biblatex}
+\addbibresource{literatur_talkshows.bib}
+
+\usepackage[automark]{scrlayer-scrpage}\clearpairofpagestyles\ohead[]{\headmark} \ofoot[\pagemark]{\pagemark}
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle           = {Politische Talkshows in Deutschland. Eine Analyse am Beispiel der „Eurokrise“},
+	pdfauthor          = {Christian Humm},
+	pdfsubject         = {Politische Talkshows in Deutschland},
+	pdfkeywords        = {talkshows, polittalks},
+	pdflang            = de,
+	pdfdisplaydoctitle = true
+}
+
+\begin{document}
+	
+%\titlehead{Kopf der Titelei}
+\subject{Wissenschaftliche Hausarbeit zur Erlangung des akademischen Grades eines Magister Artium M.A.}
+\title{Politische Talkshows in Deutschland}
+\subtitle{Eine Analyse am Beispiel der „Eurokrise“}
+\author{Christian Humm}
+\date{17.12.2012 \\ (Version vom \today)}
+\publishers{Betreut von Prof. Dr. Hans-Jürgen Bucher (Universität Trier)}
+\extratitle{\centering Christian Humm \\ Politische Talkshows in Deutschland \\ \copyright 2012 (neu gesetzt 2021) \\ \href{https://creativecommons.org/licenses/by/4.0/deed.de}{CC-BY 4.0} \\ \href{https://doi.org/10.5281/zenodo.4541440}{DOI 10.5281/zenodo.4541440}}
+%\uppertitleback{Obiger Titelrückentitel}
+%\lowertitleback{}
+%\dedication{}
+\maketitle
+
+Als ich meine Magisterarbeit 2012 über politische Talkshows geschrieben habe, waren diese gerade mal wieder Thema öffentlicher Diskussionen: Die ARD hatte ihre TV-Talkschiene gerade ausgeweitet und nun verhandelte in nunmehr fünf abendlichen Polittalkshows das politische Zeitgeschehen im Hauptprogramm. Übrig geblieben sind davon nur noch drei – \textit{Beckmann} und \textit{Günther Jauch} wurden zwischenzeitlich eingestellt.
+
+Auch die  Themen haben sich natürlich verändert. War im Untersuchungszeitraum noch die sogenannten Eurokrise eines der beherrschenden Themen in den Sendungen, so dürfte im Moment wahrscheinlich vor allem über \textit{COVD19} getalkt werden.
+
+Meine Arbeit ist nun fast neun Jahre alt. Inzwischen hat sich die Welt weitergedreht und auch ich würde sie wahrscheinlich nicht noch einmal genauso schreiben. Vielleicht enthält sie trotzdem noch einen Funken Erkenntnisgewinn oder ist nützlich als Datenlieferant.
+
+Deswegen habe ich die Arbeit -- nachdem ich es jahrelang vor mir her schob -- nun doch in diversen Abendstunden neu gesetzt. Diesmal nicht mehr mit LibreOffice sondern mit \LaTeX und, für die Abbildungen, \textit{R}. Inhaltlich wurden keine Veränderungen vorgenommen. Etwaige Fehler bitte ich zu entschuldigen.
+
+Auch wurde die Sprache nicht gegendert, dies möchte ich allerdings noch nachholen, sobald es zeitlich möglich ist.
+
+Die Arbeit, der zugrundeliegende Quellcode, die R-Skripte und ein Teil der Daten sind öffentlich verfügbar in einem Repository bei GitHub \href{https://github.com/cmlnet/polittalks}{\textit{(github.com/cmlnet/polittalks)}}. Das Dokument selbst liegt zudem bei \href{https://doi.org/10.5281/zenodo.4541440}{Zenodo bereit, versehen mit einer DOI}. Neue Versionen mit weiteren Fehlerkorrekturen werden ebenfalls dort hochgeladen.
+
+-- \textit{Christian Humm; Karlsruhe den 15.02.2021}
+
+\tableofcontents
+
+\input{kapitel/einleitung.tex}
+\input{kapitel/methodik.tex}
+\input{kapitel/talkshows.tex}
+\input{kapitel/gaestethemen.tex}
+\input{kapitel/einzelanalyse.tex}
+\input{kapitel/fazit.tex}
+
+\printbibliography
+\listoffigures
+\listoftables
+
+\input{kapitel/anhang.tex}
+
+\end{document}

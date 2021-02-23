@@ -320,3 +320,6 @@ docs/
 
 # translation temp files
 po/*~
+daten/.DS_Store
+kapitel/.DS_Store
+.DS_Store

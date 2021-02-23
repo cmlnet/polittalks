@@ -1,0 +1,82 @@
+Sendung,Rolle,ProzAnteil,AbsAnteil
+Anne Will,Politik,"29,44",63
+Beckmann,Politik,"20,92",41
+Günther Jauch,Politik,"45,32",92
+Hart aber fair,Politik,"21,76",42
+log in,Politik,"38,13",61
+maybritt illner,Politik,"37,97",90
+Menschen bei Maischberger,Politik,"14,71",35
+Anne Will,Wirtschaft,"12,15",26
+Beckmann,Wirtschaft,"2,55",5
+Günther Jauch,Wirtschaft,"6,9",14
+Hart aber fair,Wirtschaft,"11,92",23
+log in,Wirtschaft,"5,63",9
+maybritt illner,Wirtschaft,"15,61",37
+Menschen bei Maischberger,Wirtschaft,"11,76",28
+Anne Will,Journalismus,"18,69",40
+Beckmann,Journalismus,"16,33",32
+Günther Jauch,Journalismus,"15,76",32
+Hart aber fair,Journalismus,"20,73",40
+log in,Journalismus,10,16
+maybritt illner,Journalismus,"11,81",28
+Menschen bei Maischberger,Journalismus,"10,08",24
+Anne Will,Experten,"16,36",35
+Beckmann,Experten,"16,33",32
+Günther Jauch,Experten,"14,29",29
+Hart aber fair,Experten,"13,47",26
+log in,Experten,"12,5",20
+maybritt illner,Experten,"13,92",33
+Menschen bei Maischberger,Experten,"21,01",50
+Anne Will,Kultur / Sport,"14,95",32
+Beckmann,Kultur / Sport,25,49
+Günther Jauch,Kultur / Sport,"7,39",15
+Hart aber fair,Kultur / Sport,"19,17",37
+log in,Kultur / Sport,"11,88",19
+maybritt illner,Kultur / Sport,"8,44",20
+Menschen bei Maischberger,Kultur / Sport,"25,21",60
+Anne Will,Zivilgesellschaft,"3,74",8
+Beckmann,Zivilgesellschaft,"1,53",3
+Günther Jauch,Zivilgesellschaft,"1,48",3
+Hart aber fair,Zivilgesellschaft,"6,22",12
+log in,Zivilgesellschaft,15,24
+maybritt illner,Zivilgesellschaft,"7,17",17
+Menschen bei Maischberger,Zivilgesellschaft,"3,78",9
+Anne Will,Religion,"1,4",3
+Beckmann,Religion,0,0
+Günther Jauch,Religion,"1,48",3
+Hart aber fair,Religion,"1,55",3
+log in,Religion,"2,5",4
+maybritt illner,Religion,"0,84",2
+Menschen bei Maischberger,Religion,"2,94",7
+Anne Will,Normalbürger,"3,27",7
+Beckmann,Normalbürger,"17,35",34
+Günther Jauch,Normalbürger,"7,39",15
+Hart aber fair,Normalbürger,"5,18",10
+log in,Normalbürger,"4,38",7
+maybritt illner,Normalbürger,"4,22",10
+Menschen bei Maischberger,Normalbürger,"10,08",24
+Anne Will,Sonstige,0,0
+Beckmann,Sonstige,0,0
+Günther Jauch,Sonstige,0,0
+Hart aber fair,Sonstige,0,0
+log in,Sonstige,0,0
+maybritt illner,Sonstige,0,0
+Menschen bei Maischberger,Sonstige,"0,42",1
+Alle Sendungen,Politik,"29,4",424
+Alle Sendungen,Wirtschaft,"9,9",142
+Alle Sendungen,Journalismus,"14,7",212
+Alle Sendungen,Experten,"15,6",225
+Alle Sendungen,Kultur / Sport,"16,1",232
+Alle Sendungen,Zivilgesellschaft,"5,3",76
+Alle Sendungen,Kirchen,"1,5",22
+Alle Sendungen,Normalbürger,"7,4",107
+Alle Sendungen,Sonstige,"0,1",1
+ARD-Talks,Politik,"26,15",273
+ARD-Talks,Wirtschaft,"9,2",96
+ARD-Talks,Journalismus,"16,09",168
+ARD-Talks,Experten,"16,48",172
+ARD-Talks,Kultur / Sport,"18,49",193
+ARD-Talks,Zivilgesellschaft,"3,35",35
+ARD-Talks,Kirchen,"1,53",16
+ARD-Talks,Normalbürger,"8,61",90
+ARD-Talks,Sonstige,"0,1",1
